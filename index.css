@@ -2,3 +2,14 @@ body {
  background-image: url("images/homepage.jpg");
  background-color: #808080	
 }
+.circular--square {
+  border-radius: 50%;
+    width: 20%;
+  height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+position: relative;
+top: 100px;
+
+}
