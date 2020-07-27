@@ -32,3 +32,22 @@ position: relative;
   display: inline-block;
   line-height: 1em;
 }
+
+.neon {
+  color: #008000;
+  text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+      font-size: 3em;
+
+    text-align: center;
+    display: block;
+	position: relative;
+
+}
