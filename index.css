@@ -1,6 +1,8 @@
 body {
  background-image: url("images/homepage.jpg");
- background-color: #808080	
+  background-repeat: no-repeat;
+  background-size: 1920px 1200px;
+
 }
 .circular--square {
   border-radius: 50%;
@@ -70,8 +72,8 @@ position: relative;
     0 0 5px #fff,
     0 0 150px #0ff;
      font-size: 2em;
-    margin-left: 10em;
-    margin-right: 10em;
+    margin-left: 6em;
+    margin-right: 6em;
     text-align: center;
     display: block;
 	position: relative;
@@ -89,7 +91,7 @@ position: relative;
     0 0 90px #0ff,
     0 0 100px #0ff,
     0 0 150px #0ff;
-     font-size: 4em;
+    font-size: 4em;
     text-align: center;
     display: block;
 	position: relative;
