@@ -1,7 +1,7 @@
 var textWrapper = document.querySelector('.ml16');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
 
-anime.timeline({loop: false})
+anime.timeline({loop: true})
   .add({
     targets: '.ml16 .letter',
     translateY: [-100,0],
